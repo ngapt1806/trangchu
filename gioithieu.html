@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linus Jewelry</title>
+     <!-- Liên kết Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Liên kết Bootstrap Icons -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="gthieu.css"> <!-- Liên kết đến tệp CSS -->
+</head>
+<body>
+   <!-- Header -->
+     <!-- Header -->
+     <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Menu bên trái -->
+            <div class="d-flex">
+                <i class="bi bi-telephone icon"></i> 
+                <i class="bi bi-shop icon"></i> <!-- Biểu tượng cửa hàng -->
+            </div>
+
+            <!-- Logo ở giữa -->
+            <a href="index.html" class="navbar-brand">
+                <img src="images/logo.jpg" alt="Linus Jewelry Logo" class="img"> <!-- Đường dẫn và kích thước logo -->
+                <img src="images/lgo.jpg" alt="Secondary Image" class="secondary-image"> <!-- Ảnh thêm -->
+            </a>
+            
+
+            <!-- Menu bên phải -->
+            <div class="d-flex align-items-center">
+                <div class="input-group search-bar">
+                    <input type="text" class="form-control" placeholder="Tìm kiếm Linus">
+                    <button class="btn" type="button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                <a href="login.html">
+                    <i class="bi bi-person icon"></i>
+                </a>
+                <i class="bi bi-heart icon"></i>
+                <div class="cart-icon">
+                        <i class="bi bi-cart4 icon"></i>
+                        <span>0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Khung 1 -->
+    <div class="section">
+        <div class="image-content">
+            <img src="images/us1.jpg" alt="Linus Jewelry Image 2">
+        </div>
+        <div class="text-content">
+            <a href="index.html" class="brand">LINUS JEWELRY</a>
+            <p>
+                Linus Jewelry là thương hiệu trang sức cao cấp, được hình thành từ đam mê và tình yêu với nghệ thuật chế tác. 
+                Mỗi sản phẩm của Linus Jewelry không chỉ là phụ kiện, mà còn là biểu tượng của phong cách và cá tính riêng biệt. 
+                Mỗi món trang sức được chế tác tỉ mỉ từ những chất liệu cao cấp, mang đến sự hoàn hảo trong từng chi tiết. 
+                Với thiết kế sáng tạo và tinh tế, mỗi sản phẩm trở thành một tác phẩm nghệ thuật, tôn vinh vẻ đẹp bền vững và đẳng cấp.
+            </p>
+        </div>
+    </div>
+
+    <!-- Khung 2 -->
+    <div class="section">
+        <div class="text-content">
+            <p>
+                Trang sức không chỉ làm đẹp, mà còn là câu chuyện cảm xúc, là kỷ niệm được khắc ghi qua từng món quà. 
+                Cho dù là chiếc nhẫn lộng lẫy, đôi bông tai thanh thoát hay món quà ý nghĩa, Linus Jewelry luôn có những thiết kế hoàn hảo 
+                để thể hiện tình yêu, sự quan tâm và phong cách cá nhân. 
+                Mỗi món trang sức tại Linus Jewelry đều mang trong mình một câu chuyện riêng biệt. 
+                Hãy để những thiết kế trang sức tinh tế, sang trọng và đầy cá tính này giúp bạn tỏa sáng trong những khoảnh khắc đáng nhớ của cuộc sống.
+            </p>
+        </div>
+        <div class="image-content">
+            <img src="images/us2.jpg" alt="Linus Jewelry Image 1">
+        </div>
+    </div>
+    <section class="features-section">
+        <div class="feature">
+          <img src="images/mặt cười.jpg" alt="Khách hàng hài lòng">
+          <h3>KHÁCH HÀNG HÀI LÒNG</h3>
+          <p>Đặt sự hài lòng của khách hàng là ưu tiên số 1 trong mọi suy nghĩ và hành động.</p>
+        </div>
+        <div class="feature">
+          <img src="images/chứng chỉ.jpg" alt="Chất lượng cao cấp">
+          <h3>CHẤT LƯỢNG CAO CẤP</h3>
+          <p>Mọi sản phẩm đều được thiết kế và chế tác bởi các nghệ nhân hàng đầu.</p>
+        </div>
+        <div class="feature">
+          <img src="images/đổi trả.jpg" alt="Đổi trả dễ dàng">
+          <h3>ĐỔI TRẢ DỄ DÀNG</h3>
+          <p>Đổi trả sản phẩm trong vòng 10 ngày. Hoàn tiền nếu không hài lòng.</p>
+        </div>
+        <div class="feature">
+          <img src="images/hỗ trợ.jpg" alt="Hỗ trợ nhiệt tình">
+          <h3>HỖ TRỢ NHIỆT TÌNH</h3>
+          <p>Tất cả câu hỏi đều được các chuyên viên tư vấn, giải đáp kỹ càng.</p>
+        </div>
+      </section>
+ 
+      <!-- Biểu tượng chuông -->
+      <div class="notification-icon" onclick="toggleContactMenu()">
+        <img src="images/gọi đt.jpg" alt="Notification Bell">
+      </div>
+      
+      <!-- Menu thông tin -->
+      <div class="menu" id="info-menu">
+        <div class="menu-header">Rất Hân Hạnh Được Phục Vụ Bạn</div>
+        <div class="menu-item">
+          <a href="⁦https://www.facebook.com/profile.php?id=6156...3735143⁩" target="_blank" class="menu-item">
+            <img src="images/fb.jpg" alt="Facebook">
+            Facebook
+          </a>
+        </div>
+        <div class="menu-item">
+          <a href="⁦https://www.instagram.com/linus_jewelry/⁩" target="_blank" class="menu-item">
+            <img src="images/ì.png" alt="IG">
+          </a>
+          Instagram
+        </div>
+        <div class="menu-item">
+          <a href="tel:0355870959" class="menu-item">
+            <img src="images/gọi.png" alt="Phone">
+            Gọi tư vấn miễn phí
+          </a>
+        </div>
+        <div class="menu-item">
+          <a href="linusjewelrycskh@gmail.com" class="menu-item">
+            <img src="images/dtt.png" alt="Callback">
+            Yêu cầu gọi lại
+          </a>
+        </div>
+      </div>
+      </body>
+      <script>
+      // Hàm để bật/tắt menu liên lạc
+      function toggleContactMenu() {
+        const contactMenu = document.getElementById('info-menu');
+        if (contactMenu.style.display === 'block') {
+          contactMenu.style.display = 'none';
+        } else {
+          contactMenu.style.display = 'block';
+        }
+      }
+      
+      // Đóng menu nếu người dùng click ra ngoài
+      window.addEventListener('click', function (event) {
+        const contactMenu = document.getElementById('info-menu');
+        const notificationIcon = document.querySelector('.notification-icon');
+        if (!notificationIcon.contains(event.target) && !contactMenu.contains(event.target)) {
+          contactMenu.style.display = 'none';
+        }
+      });
+      </script>
+      <!-- Footer -->
+      <footer>
+          <div class="footer-container">
+              <div class="footer-section">
+                  <h4>Về Chúng Tôi</h4>
+                  <ul>
+                      <li><a href="/Vechungtoi/i.html">Về Linus</a></li>
+                      <li><a href="/Sodowebsite/k.html">Sơ đồ Website</a></li>
+                      <li><a href="/Cauhoithuonggap/f.html">Câu hỏi thường gặp </a></li>
+    </ul>
+              </div>
+              <div class="footer-section">
+                  <h4>Chính sách hỗ trợ </h4>
+                  <ul>
+                      <li><a href="/Chinhsachbaomat/b.html">Chính sách bảo mật </a></li>
+                      <li><a href="/Chinhsachvanchuyen/c.html">Chính sách vận chuyển </a></li>
+                      <li><a href="/Chinhsachdoitra/d.html">Chính sách đổi trả & bảo hành </a></li>
+                      <li><a href="/Cachthucbaoquan/e.html">Cách thức bảo quản </a></li>
+                  </ul>
+              </div>
+              <div class="footer-section">
+                  <h4>Liên Hệ</h4>
+                  <p>
+                      <a href="tel:+84123456789" class="contact-link">
+                          <i class="fas fa-phone-alt"></i> Số điện thoại: +84 123 456 789
+                      </a>
+                  </p>
+                  <p>
+                      <a href="mailto:info@example.com" class="contact-link">
+                          <i class="fas fa-envelope"></i> Email: Linusjewelrycskh@gmail.com
+                      </a>
+                  <p>
+                      <a href="https://www.google.com/maps/place/12+P.+Ch%C...Aw%3D%3D" target="_blank">
+                      <i class="fas fa-map-marker-alt icon"></i> Địa chỉ: 12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội
+                  </a></p>
+              </div>
+              <div class="footer-section social-media">
+                  <h4>Kết Nối Với Chúng Tôi</h4>
+                  <p>
+                  <a href="https://www.facebook.com/people/Linusjewelry...3735143/" target="_blank" class="social-icon">
+                      <i class="fab fa-facebook-f"></i>Facebook
+                  </a> 
+                  </p>
+                  <p>
+                  <a href="https://www.instagram.com/linus_jewelry?igsh...Yw%3D%3D" target="_blank" class="social-icon">
+                      <i class="fab fa-instagram"></i>Instagram
+                  </a>
+                  </p>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2024 Trang Sức Cao Cấp Linus. All Rights Reserved.</p>
+          </div>
+      </footer>
+</body>
+</html>
